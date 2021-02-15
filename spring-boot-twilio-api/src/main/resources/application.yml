@@ -1,0 +1,6 @@
+twilio:
+  account_sid: #ACCOUNT SID
+  auth_token: #AUTH TOKEN
+  trial_number: #TRIAL PHONE NUMBER
+
+  # twilio.com
