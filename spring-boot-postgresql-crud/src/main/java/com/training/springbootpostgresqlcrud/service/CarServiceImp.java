@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class CarServiceImp implements CarService{
+public class CarServiceImp implements CarService {
     @Autowired
     private CarRepository carRepository;
 
@@ -36,6 +36,6 @@ public class CarServiceImp implements CarService{
     @Override
     public Car updateCar(Car car, int car_id) {
         car.setCarId(car_id);
-        return  carRepository.save(car);
+        return carRepository.save(car);
     }
 }

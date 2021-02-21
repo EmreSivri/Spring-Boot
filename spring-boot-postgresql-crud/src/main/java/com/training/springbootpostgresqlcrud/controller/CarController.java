@@ -31,7 +31,7 @@ public class CarController {
 
     @RequestMapping(value = "/update/{car_id}", method = RequestMethod.PUT)
     public Car UpdateCar(@RequestBody Car car, @RequestBody int car_id) {
-        return carService.updateCar(car,car_id);
+        return carService.updateCar(car, car_id);
     }
 
     @RequestMapping(value = "/delete", method = RequestMethod.DELETE)
